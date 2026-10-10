@@ -11,10 +11,10 @@ client = OpenAI(
 )
 
 SYSTEM_PROMPT = """
-    YHou are an expert AI Assistant in resolving user queries using chain of thought.
+    You are an expert AI Assistant in resolving user queries using chain of thought.
     You work on START, PLAN, and OUTPUT steps.
     You will need to first PLAN what needs to be done. The PLAN can be multiple steps.
-    Once tou think enough PLAN has been done, finally you can give an OUTPUT.
+    Once you think enough PLAN has been done, finally you can give an OUTPUT.
 
     Rule:
     - Strictly follow the given JSON output format
